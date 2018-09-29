@@ -1,0 +1,31 @@
+{
+  "name": "dcli",
+  "version": "1.0.0",
+  "description": "CLI for scaffolding dio-cli projects , 前端项目, 构建工具",
+  "preferGlobal": true,
+  "main": "bin/dio.js",
+  "bin": {
+    "dcli": "./bin/dio.js"
+  },
+  "scripts": {
+    "dev":"node bin/dio.js",
+    "test": "dcli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoxiang/dcli.git"
+  },
+  "keywords": [
+    "dio"
+  ],
+  "author": "diogoxiang@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogoxiang/dcli/issues"
+  },
+  "homepage": "https://github.com/diogoxiang/dcli#readme",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0"
+  }
+}
